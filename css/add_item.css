@@ -1,0 +1,15 @@
+.error_msg {
+color: red;
+text-align: center;
+font-weight: bold;
+}
+
+.message {
+color: black
+text-align: center;
+font-weight: bold;
+}
+
+textarea {
+height: 5em;
+}

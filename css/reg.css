@@ -1,0 +1,11 @@
+.errorMsg {
+	color: red;
+	text-align: center;
+	font-weight: bold;
+}
+
+.message {
+	color: black
+	text-align: center;
+	font-weight: bold;
+}

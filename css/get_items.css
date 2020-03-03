@@ -1,0 +1,65 @@
+#get_items_section {
+	align-items: center;
+	background: lightgrey;
+	font-size: 14px;
+	font-family: "Verdana", sans-serif;
+	padding: 10px;
+	width: 100%;
+}
+
+.deleting {
+	background-color: red;
+	float: right;
+}
+
+.editing {
+	background-color: green;
+}
+
+.item_block {
+	background: #bbccbb;
+	border: 1px solid gray;
+	border-radius: 10px;
+	justify-content: center;
+	margin: 0px auto 10px;
+	padding: 10px;
+	width: 700px;
+}
+
+.item_block p.item_author {
+	font-weight: bold;
+}
+
+.item_operation {
+	border: 1px solid black;
+	border-radius: 15px;
+	color: white;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	margin: 10px 20px;
+	text-align: center;
+	width: 80px;
+}
+
+.item_operation:hover {
+	cursor: pointer;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	transition: opacity 400ms ease-in;
+	z-index: 99;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+}
+
+.modal:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modal textarea {
+  height: 5em;
+}
